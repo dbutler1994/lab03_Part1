@@ -1,6 +1,6 @@
 .bkimg{
     background-image: url(../images/duncan-kidd.jpg);
-    background-size: 100%;
+    background-size: cover;
 }
 a.changecol{
     color: #000000 !important;
@@ -22,10 +22,21 @@ a.changecol{
 
     .uk-card-title {
         height: 15%;
+        font-size: large;
+        margin-bottom: 10px;
     }
 
+
     .search-box{
-        width: 55%;
+        width: 100%;
+    }
+
+    .search-button{
+        width:100%;
+    }
+
+    .property-feature{
+        height: 50px;
     }
 
 }
@@ -36,6 +47,9 @@ a.changecol{
         flex-direction: column-reverse;
     }
 
+    .bkimg{
+        background-size: 100%;
+    }
 
     .nav-items{
         padding-left: 20px;
@@ -65,6 +79,14 @@ a.changecol{
     .top-picks img{
         width: 100%;
         
+    }
+
+    .property-feature{
+        height: auto;
+    }
+    
+    .uk-card-title{
+        font-size:  xx-large;
     }
 
 }
